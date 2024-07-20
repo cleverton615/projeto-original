@@ -13,7 +13,7 @@ html {
     overflow-x: hidden;
 }
 
-video, .img-tesla {
+video, .img-mult {
     width: 100%;
     height: 100%;
     position: absolute; /*POSICIONA O ITEM NUMA POSIÇÃO EXATA QUE EU DESEJAR*/
@@ -50,8 +50,7 @@ h1 {
     color: white;
 }
 
-.info-carro {
-    margin-top: 80px;
+.info-mult {
     text-align: center;
 }
 
@@ -59,11 +58,16 @@ h1 {
     color: black;
 }
 
+h1#model1 {
+    margin-top: -300px;
+    color: white;
+}
+
 .rodape {
     text-align: center;
 }
 
-button {
+.bt1 {
     background-color: rgba(34, 34, 34, 0.8);
     color: white;
     padding: 7px 80px;
@@ -72,6 +76,16 @@ button {
     cursor: pointer; /*COLOCA A MÃOZINHA NO LUGAR DO MOUSE*/
 }
 
+.bt2 {
+    background-color: rgba(255, 5, 5, 0.8);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; /*COLOCA A MÃOZINHA NO LUGAR DO MOUSE*/
+    margin-top: 15px;
+    margin-left: 1220px;
+}
 .test-drive {
     color: black;
     background-color: white;

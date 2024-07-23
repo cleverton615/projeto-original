@@ -58,11 +58,6 @@ h1 {
     color: black;
 }
 
-h1#model1 {
-    margin-top: -300px;
-    color: white;
-}
-
 .rodape {
     text-align: center;
 }
@@ -77,6 +72,7 @@ h1#model1 {
 }
 
 .bt2 {
+    position: absolute;
     background-color: rgba(255, 5, 5, 0.8);
     color: white;
     padding: 7px;
@@ -86,23 +82,9 @@ h1#model1 {
     margin-top: 15px;
     margin-left: 1220px;
 }
-.test-drive {
-    color: black;
-    background-color: white;
-}
 
 .texto-rodape {
     color: white;
     font-size: 12px;
     margin-top: 10px;
-}
-
-.formulario {
-    position: fixed;
-    top: 40px;
-    width: 600px;
-    height: 100%;
-    z-index: 3;
-    left: -60%;
-    transition: 1.5s;
 }
